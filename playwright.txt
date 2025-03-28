@@ -4,3 +4,17 @@ Step : npm init playwright@latest
 
 
 Step 2: to run the Script npx playwright test
+
+//pushing the local branch in the git hub
+
+Step 1: git init
+
+step 2: git add .
+
+step 3: git commit -m "message "
+
+step 4: git remote add origin https://github.com/swaroop-chinni/"git repocitory name.git"
+
+step 5: confirm the git branch using : git branch
+
+Step 6: pushin the git local repo into git hub: git push origin main
