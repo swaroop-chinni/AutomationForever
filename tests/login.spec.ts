@@ -12,7 +12,7 @@ test('Validate the Playwright configuration - Login to Rahul Shetty Academy', as
   await page.getByRole('textbox', { name: 'username' }).fill('rahulshettyacademy');
   await page.getByRole('textbox', { name: 'password' }).fill('learning');
   await page.getByRole('checkbox', { name: 'I Agree to the terms' }).check();
-  await page.getByRole('button', { name: 'Sign In' }).click();
+  await page.getByRole('button', { name: 'Sign In' }).click()
 
   // Step 4: Wait for navigation and verify login success
   await page.waitForNavigation();
