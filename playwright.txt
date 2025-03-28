@@ -1,0 +1,6 @@
+install playwright 
+
+Step : npm init playwright@latest
+
+
+Step 2: to run the Script npx playwright test
